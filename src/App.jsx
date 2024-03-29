@@ -4,7 +4,7 @@ import iconLuxury from "./assets/icon-luxury.svg"
 
 export default function App() {
   return (
-    <main>
+    <main className=" min-h-svh bg-offwhitebg py-20 px-6">
       <section>
         <div className="bg-orange">
           <img src={iconSedans} alt="icones dos carros sedans" />
@@ -15,14 +15,14 @@ export default function App() {
 
         <div className="bg-green">
           <img src={iconSuvs} alt="icone de carros Suvs" />
-          <h2 className="font-shoulder">SUVs</h2>
+          <h2 className="font-shoulders">SUVs</h2>
           <p className="font-lexend"> texto de cá texto de lá</p>
           <a className="font-lexend" href="https://www.webmotors.com.br/comprar/bmw/x1/20-16v-turbo-activeflex-sdrive20i-4p-automatico/4-portas/2016/51138343?pos=a51138343g:&np=1" target="_blank">Ver Mais</a>
         </div>
 
         <div className="bg-dark-green">
           <img src={iconLuxury} alt="icone dos carros de luxo" />
-          <h2 className="font-shoulder">Luxuosos</h2>
+          <h2 className="font-shoulders">Luxuosos</h2>
           <p className="font-lexend">carrinhos de luxo vrum vrum</p>
           <a className="font-lexend" href="https://www.webmotors.com.br/comprar/bmw/m3/30-i6-twinturbo-gasolina-competition-m-steptronic/4-portas/2022-2023/51086892?pos=a51086892g:&np=2&ct=1840169" target="_blank">Ver Mais</a>
         </div>
