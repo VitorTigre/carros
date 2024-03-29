@@ -6,21 +6,21 @@ export default function App() {
   return (
     <main>
       <section>
-        <div>
+        <div className="bg-orange">
           <img src={iconSedans} alt="icones dos carros sedans" />
         <h2>Sedans</h2>
         <p>Texto texto texto pipipipopopo de não sei oque não sei oque lá, de pontinho vermelho aqui de pontinho vermleho cá, que fulano falou pra cicrano que não sei oque de pipipipopopo</p>
         <a href="https://www.webmotors.com.br/comprar/mercedes-benz/c-250/20-cgi-gasolina-avantgarde-9g-tronic/4-portas/2017/48158297?pos=a48158297g:&np=1" target="_blank">Ver Mais</a>
         </div>
 
-        <div>
+        <div className="bg-green">
           <img src={iconSuvs} alt="icone de carros Suvs" />
           <h2>SUVs</h2>
           <p>texto de cá texto de lá</p>
           <a href="https://www.webmotors.com.br/comprar/bmw/x1/20-16v-turbo-activeflex-sdrive20i-4p-automatico/4-portas/2016/51138343?pos=a51138343g:&np=1" target="_blank">Ver Mais</a>
         </div>
 
-        <div>
+        <div className="bg-dark-green">
           <img src={iconLuxury} alt="icone dos carros de luxo" />
           <h2>Luxuosos</h2>
           <p>carrinhos de luxo vrum vrum</p>
